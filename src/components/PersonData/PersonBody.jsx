@@ -6,7 +6,7 @@ const PersonBody = ({ personData }) => {
         <>
             {
                 personData._id ?
-                    <div className='w-full flex items-center p-10'>
+                    <div className='w-full flex px-10'>
                         <div className='w-1/2'>
                             <div className='font-bold'>
                                 <h1 className='text-2xl'>{_id}</h1>
