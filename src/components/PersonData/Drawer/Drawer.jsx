@@ -21,7 +21,7 @@ const Drawer = ({ users, setUsers }) => {
     return (
         <div className="drawer drawer-end">
             <input id="my-drawer-4" type="checkbox" className="drawer-toggle" />
-            <div className="drawer-content mt-5 flex items-start">
+            <div className="drawer-content mt-5 flex justify-end">
                 <PersonBody personData={personData}></PersonBody>
                 <label htmlFor="my-drawer-4" className="drawer-button btn btn-primary float-right"><HiMenu></HiMenu>
                 </label>
